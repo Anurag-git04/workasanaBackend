@@ -104,4 +104,6 @@ http://localhost:5080
 | GET    | `/tasksbyid/:id`   | Get task by ID       |
 | PUT    | `/tasks/:id`       | Update task by ID    |
 | DELETE | `/tasks/:id`       | Delete task by ID    |
-### 🌐 Deployment Link :
+### 🌐 Deployment Link : https://workasana-backend-ecru.vercel.app/tasks
+### Loom Video : 
+https://drive.google.com/file/d/1H1by4NN4Nf3VECB9xf8kkYZPBpnuQ0FO/view?usp=sharing 
