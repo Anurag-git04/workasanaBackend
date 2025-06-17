@@ -62,7 +62,7 @@ git clone https://github.com/Anurag-git04/workasanaBackend.git
 cd workasanaBackend
 
 # Install dependencies
-npm install
+ npm install
 
 # Create .env file
 touch .env
