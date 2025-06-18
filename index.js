@@ -187,7 +187,7 @@ app.get('/tasks', async (req, res) => {
 app.get('/tasksbyid/:id',async(req,res)=>{
     const {id} = req.params
     try {
-        const data = await Task.findById(id).populate('project', 'name description')   
+        const data = await Task.findById(id).populate('project', 'name description').populate('owners','name')   
 
         if(data){
             return res.status(201).json({data})
